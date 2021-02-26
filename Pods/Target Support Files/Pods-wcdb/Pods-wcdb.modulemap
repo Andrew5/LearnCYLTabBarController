@@ -1,0 +1,6 @@
+framework module Pods_wcdb {
+  umbrella header "Pods-wcdb-umbrella.h"
+
+  export *
+  module * { export * }
+}
