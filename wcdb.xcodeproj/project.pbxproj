@@ -14,6 +14,8 @@
 		385AF70125CFCD60006D69A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385AF70025CFCD60006D69A1 /* Assets.xcassets */; };
 		385AF70425CFCD60006D69A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385AF70225CFCD60006D69A1 /* LaunchScreen.storyboard */; };
 		385AF70725CFCD60006D69A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 385AF70625CFCD60006D69A1 /* main.m */; };
+		38908A5A25E8B922004BFD96 /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38908A5825E8B922004BFD96 /* BigView.m */; };
+		38908A5B25E8B922004BFD96 /* AppStoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38908A5925E8B922004BFD96 /* AppStoreIcon.png */; };
 		38A0B28D25E6310D00DAB7F7 /* DHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B28C25E6310D00DAB7F7 /* DHHomeViewController.m */; };
 		38A0B29225E6312C00DAB7F7 /* DHCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B29125E6312C00DAB7F7 /* DHCommunityViewController.m */; };
 		38A0B29625E6313F00DAB7F7 /* DHNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B29525E6313F00DAB7F7 /* DHNewsViewController.m */; };
@@ -22,7 +24,6 @@
 		38A0B34825E63E3300DAB7F7 /* DHCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B34725E63E3300DAB7F7 /* DHCenterViewController.m */; };
 		38A0B36325E6574700DAB7F7 /* BigSizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B36225E6574700DAB7F7 /* BigSizeButton.m */; };
 		38A0B36925E65DAF00DAB7F7 /* UIButton+LiEnlarged.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B36825E65DAF00DAB7F7 /* UIButton+LiEnlarged.m */; };
-		38A0B39F25E679F000DAB7F7 /* BigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B39E25E679F000DAB7F7 /* BigView.m */; };
 		38A0B3C225E7421C00DAB7F7 /* DHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B3C025E7421C00DAB7F7 /* DHTool.m */; };
 		38A0B3C525E7476400DAB7F7 /* 自适应两栏布局.html in Resources */ = {isa = PBXBuildFile; fileRef = 38A0B3C425E7476400DAB7F7 /* 自适应两栏布局.html */; };
 		38A0B40C25E78C4A00DAB7F7 /* DHCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A0B40925E78C4900DAB7F7 /* DHCenterView.m */; };
@@ -48,6 +49,9 @@
 		385AF70325CFCD60006D69A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385AF70525CFCD60006D69A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385AF70625CFCD60006D69A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38908A5725E8B922004BFD96 /* BigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigView.h; sourceTree = "<group>"; };
+		38908A5825E8B922004BFD96 /* BigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigView.m; sourceTree = "<group>"; };
+		38908A5925E8B922004BFD96 /* AppStoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppStoreIcon.png; sourceTree = "<group>"; };
 		38A0B28B25E6310D00DAB7F7 /* DHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHHomeViewController.h; sourceTree = "<group>"; };
 		38A0B28C25E6310D00DAB7F7 /* DHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHHomeViewController.m; sourceTree = "<group>"; };
 		38A0B29025E6312C00DAB7F7 /* DHCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHCommunityViewController.h; sourceTree = "<group>"; };
@@ -64,8 +68,6 @@
 		38A0B36225E6574700DAB7F7 /* BigSizeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigSizeButton.m; sourceTree = "<group>"; };
 		38A0B36725E65DAF00DAB7F7 /* UIButton+LiEnlarged.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIButton+LiEnlarged.h"; path = "wcdb/Module/UIButton+LiEnlarged.h"; sourceTree = SOURCE_ROOT; };
 		38A0B36825E65DAF00DAB7F7 /* UIButton+LiEnlarged.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LiEnlarged.m"; path = "wcdb/Module/UIButton+LiEnlarged.m"; sourceTree = SOURCE_ROOT; };
-		38A0B39D25E679F000DAB7F7 /* BigView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BigView.h; path = ../../../../BigView.h; sourceTree = "<group>"; };
-		38A0B39E25E679F000DAB7F7 /* BigView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BigView.m; path = ../../../../BigView.m; sourceTree = "<group>"; };
 		38A0B3C025E7421C00DAB7F7 /* DHTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTool.m; sourceTree = "<group>"; };
 		38A0B3C125E7421C00DAB7F7 /* DHTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTool.h; sourceTree = "<group>"; };
 		38A0B3C425E7476400DAB7F7 /* 自适应两栏布局.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "自适应两栏布局.html"; sourceTree = "<group>"; };
@@ -173,8 +175,9 @@
 				38A0B3C425E7476400DAB7F7 /* 自适应两栏布局.html */,
 				38A0B36125E6574700DAB7F7 /* BigSizeButton.h */,
 				38A0B36225E6574700DAB7F7 /* BigSizeButton.m */,
-				38A0B39D25E679F000DAB7F7 /* BigView.h */,
-				38A0B39E25E679F000DAB7F7 /* BigView.m */,
+				38908A5925E8B922004BFD96 /* AppStoreIcon.png */,
+				38908A5725E8B922004BFD96 /* BigView.h */,
+				38908A5825E8B922004BFD96 /* BigView.m */,
 				38A0B36725E65DAF00DAB7F7 /* UIButton+LiEnlarged.h */,
 				38A0B36825E65DAF00DAB7F7 /* UIButton+LiEnlarged.m */,
 				38A0B3C125E7421C00DAB7F7 /* DHTool.h */,
@@ -268,6 +271,7 @@
 				38A0B3C525E7476400DAB7F7 /* 自适应两栏布局.html in Resources */,
 				38A0B46825E7DF8C00DAB7F7 /* DHTestTableViewCell.xib in Resources */,
 				385AF70125CFCD60006D69A1 /* Assets.xcassets in Resources */,
+				38908A5B25E8B922004BFD96 /* AppStoreIcon.png in Resources */,
 				385AF6FF25CFCD5F006D69A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,8 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38908A5A25E8B922004BFD96 /* BigView.m in Sources */,
 				38A0B46C25E7E4A700DAB7F7 /* ArrayDataSource.m in Sources */,
-				38A0B39F25E679F000DAB7F7 /* BigView.m in Sources */,
 				38A0B40C25E78C4A00DAB7F7 /* DHCenterView.m in Sources */,
 				385AF6FC25CFCD5F006D69A1 /* ViewController.m in Sources */,
 				385AF6F625CFCD5F006D69A1 /* AppDelegate.m in Sources */,

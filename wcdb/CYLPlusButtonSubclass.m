@@ -102,9 +102,32 @@
 //    [button addTarget:button action:@selector(clickPublish) forControlEvents:UIControlEventTouchUpInside];
 //    return button;
 //}
+- (void)changeAppIconWithName:(NSString *)iconName {
+    if (@available(iOS 10.3, *)) {
+        if (![[UIApplication sharedApplication] supportsAlternateIcons]) {
+            return;
+        }
+    } else {
+        // Fallback on earlier versions
+    }
+    
+    if ([iconName isEqualToString:@""]) {
+        iconName = nil;
+    }
+    if (@available(iOS 10.3, *)) {
+        [[UIApplication sharedApplication] setAlternateIconName:iconName completionHandler:^(NSError * _Nullable error) {
+            if (error) {
+                NSLog(@"更换app图标发生错误了 ： %@",error);
+            }
+        }];
+    } else {
+        // Fallback on earlier versions
+    }
+}
 - (void)clickPublish:(UIButton *)sender {
     NSLog(@"点击开始按钮");
-    
+    [self changeAppIconWithName:@"App111Icon"];
+
     
     UILongPressGestureRecognizer *longGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPressGestureRecognizerAction:)];
     longGesture.minimumPressDuration = 0.2;
